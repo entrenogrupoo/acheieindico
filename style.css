@@ -8,3 +8,10 @@
 .marquee-group i{color:#e8b34b}
 @keyframes marquee{to{transform:translateX(-50%)}}
 .cta{background:linear-gradient(110deg,#0b3165,#0a244a 65%,#061a39);border:1px solid #d9af4b;box-shadow:0 9px 23px #0b2f5a30}
+
+/* Ajustes pontuais: titulo em duas linhas e etiqueta dourada. */
+.headline-two-lines {font-size:clamp(12px, 3.48vw, 19px);line-height:1.35;letter-spacing:-.45px;}
+.headline-two-lines span,.headline-two-lines em {display:block;white-space:nowrap;}
+.stats .offer-tag-icon {display:flex;align-items:center;justify-content:center;color:#c68b19;}
+.stats .offer-tag-icon svg {display:block;width:29px;height:29px;}
+@media (max-width:360px) {.headline-two-lines {font-size:clamp(11px,3.55vw,13px);letter-spacing:-.55px;}}
